@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.chaitanyaapate.exercise.Controller">
+    <children>
+        <Pane prefHeight="30.0" prefWidth="200.0" />
+      <Label alignment="CENTER" prefHeight="32.0" prefWidth="575.0" text="Welcome">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="choiceBox" blendMode="MULTIPLY" prefHeight="26.0" prefWidth="160.0" translateX="200.0" translateY="30.0" />
+      <TextField fx:id="textField" alignment="CENTER" maxWidth="200.0" prefHeight="26.0" prefWidth="121.0" promptText=" Enter the doller input" translateX="185.0" translateY="60.0" />
+        <Button fx:id="clickbtn" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Convert" translateX="255.0" translateY="100" />
+      <ImageView fx:id="imageView" fitHeight="107.0" fitWidth="124.0" pickOnBounds="true" preserveRatio="true" translateX="12.0" translateY="-100.0" />
+      <ImageView fx:id="imageView2" fitHeight="66.0" fitWidth="380.0" pickOnBounds="true" preserveRatio="true" translateX="15.0" translateY="14.0" />
+      <ImageView fx:id="imageView3" fitHeight="66.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true" translateX="450.0" translateY="-50.0" />
+    </children>
+</VBox>
